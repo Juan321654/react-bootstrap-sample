@@ -1,6 +1,6 @@
-- 1. npm install react-bootstrap bootstrap
-- 2. add: ```import 'bootstrap/dist/css/bootstrap.min.css'; ``` to the index.js file before the renders
-- 3. add: 
+- npm install react-bootstrap bootstrap
+- add: ```import 'bootstrap/dist/css/bootstrap.min.css'; ``` to the index.js file before the renders
+- add: 
 ```<link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -9,7 +9,7 @@
 />
 ```
 to the index.html in the public folder
-- 4. go to https://react-bootstrap.github.io/ and search for the component you need to use, in this case we'll use navbar
+- go to https://react-bootstrap.github.io/ and search for the component you need to use, in this case we'll use navbar
 ```
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -35,9 +35,9 @@ to the index.html in the public folder
   </Navbar.Collapse>
 </Navbar>
 ```
-- 5. ```import * as ReactBootStrap from 'react-bootstrap'``` in the app.js and add it to each Nav element
+- ```import * as ReactBootStrap from 'react-bootstrap'``` in the app.js and add it to each Nav element
 
-- 6. ```<ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+- ```<ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <ReactBootStrap.Navbar.Brand href="#home">React-Bootstrap</ReactBootStrap.Navbar.Brand>
     <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
