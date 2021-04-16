@@ -1,3 +1,17 @@
+## tip
+to overwrite bootsrap give a className to the main div container and then select its child 
+```
+<div className="overwrite-bootsrap">
+  <ReactBootStrap.Navbar.Brand href="#home" className="navbar-home">React-Bootstrap</ReactBootStrap.Navbar.Brand>
+</div>
+```
+```
+css >
+.overwrite-bootsrap navbar-home {
+  background-color: red;
+}
+```
+## How to install and use bootstrap
 - npm install react-bootstrap bootstrap
 - add: ```import 'bootstrap/dist/css/bootstrap.min.css'; ``` to the index.js file before the renders
 - add: 
