@@ -1,16 +1,3 @@
-## tip
-to overwrite bootsrap give a className to the main div container and then select its child 
-```
-<div className="overwrite-bootsrap">
-  <ReactBootStrap.Navbar.Brand href="#home" className="navbar-home">React-Bootstrap</ReactBootStrap.Navbar.Brand>
-</div>
-```
-```
-css >
-.overwrite-bootsrap navbar-home {
-  background-color: red;
-}
-```
 ## How to install and use bootstrap
 - npm install react-bootstrap bootstrap
 - add: ```import 'bootstrap/dist/css/bootstrap.min.css'; ``` to the index.js file before the renders
@@ -76,3 +63,16 @@ to the index.html in the public folder
   </ReactBootStrap.Navbar>
   ```
   - When the container is within your navbar, its horizontal padding is removed at breakpoints lower than your specified expand={'sm' | 'md' | 'lg' | 'xl'} prop. This ensures we’re not doubling up on padding unnecessarily on lower viewports when your navbar is collapsed.
+## tip
+to overwrite bootsrap give a className to the main div container and then select its child 
+```
+<div className="overwrite-bootsrap">
+  <ReactBootStrap.Navbar.Brand href="#home" className="navbar-home">React-Bootstrap</ReactBootStrap.Navbar.Brand>
+</div>
+```
+```
+css >
+.overwrite-bootsrap navbar-home {
+  background-color: red;
+}
+```
