@@ -60,3 +60,4 @@ to the index.html in the public folder
       </ReactBootStrap.Nav>
     </ReactBootStrap.Navbar.Collapse>
   </ReactBootStrap.Navbar>```
+  - When the container is within your navbar, its horizontal padding is removed at breakpoints lower than your specified expand={'sm' | 'md' | 'lg' | 'xl'} prop. This ensures we’re not doubling up on padding unnecessarily on lower viewports when your navbar is collapsed.
